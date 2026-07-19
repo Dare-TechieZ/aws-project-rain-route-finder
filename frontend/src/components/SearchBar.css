@@ -1,0 +1,459 @@
+.sidebar{
+
+position:absolute;
+
+top:20px;
+
+left:20px;
+
+width:380px;
+
+z-index:1000;
+
+padding:28px;
+
+border-radius:22px;
+
+background:linear-gradient(
+180deg,
+#ffffff,
+#f8fbff
+);
+
+backdrop-filter:blur(10px);
+
+box-shadow:
+0 20px 50px rgba(0,0,0,.18);
+
+font-family:
+Inter,
+Arial,
+sans-serif;
+
+}
+
+.logo{
+
+font-size:34px;
+
+font-weight:800;
+
+color:#2563EB;
+
+margin-bottom:6px;
+
+}
+.subtitle{
+
+color:#64748B;
+
+font-size:15px;
+
+margin-bottom:28px;
+
+line-height:1.5;
+
+}
+.hero{
+
+display:flex;
+
+align-items:center;
+
+gap:15px;
+
+margin-bottom:18px;
+
+}
+
+.logoCircle{
+
+width:58px;
+
+height:58px;
+
+border-radius:50%;
+
+background:#2563EB;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+font-size:28px;
+
+color:white;
+
+}
+
+.heroDescription{
+
+margin-bottom:20px;
+
+line-height:1.6;
+
+font-size:14px;
+
+color:#64748B;
+
+}
+
+.chips{
+
+display:flex;
+
+flex-wrap:wrap;
+
+gap:8px;
+
+margin-bottom:22px;
+
+}
+
+.chip{
+
+padding:8px 12px;
+
+border-radius:30px;
+
+background:#EFF6FF;
+
+color:#2563EB;
+
+font-size:13px;
+
+font-weight:600;
+
+}
+.input{
+
+width:100%;
+
+padding:14px;
+
+margin-bottom:15px;
+
+border:1px solid #CBD5E1;
+
+border-radius:12px;
+
+font-size:15px;
+
+box-sizing:border-box;
+
+transition:.25s;
+
+}
+
+.input:focus{
+
+outline:none;
+
+border-color:#2563EB;
+
+box-shadow:
+
+0 0 0 4px
+
+rgba(37,99,235,.15);
+
+}
+
+.button{
+
+width:100%;
+
+padding:15px;
+
+border:none;
+
+border-radius:12px;
+
+background:#2563EB;
+
+font-size:16px;
+
+font-weight:600;
+
+color:white;
+
+cursor:pointer;
+
+transition:.3s;
+
+}
+.button:hover{
+
+transform:translateY(-2px);
+
+background:#1D4ED8;
+
+}
+.resultCard{
+
+    margin-top:25px;
+
+    background:#F8FAFC;
+
+    border-radius:14px;
+
+    padding:18px;
+
+    border:1px solid #E5E7EB;
+
+}
+
+.resultRow{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    margin-bottom:14px;
+
+    font-size:15px;
+
+}
+
+.resultRow:last-child{
+
+    margin-bottom:0;
+
+}
+
+.label{
+
+    color:#555;
+
+    font-weight:500;
+
+}
+
+.value{
+
+    font-weight:700;
+
+}
+
+.riskCard{
+
+    margin-top:18px;
+
+    padding:18px;
+
+    border-radius:14px;
+
+    text-align:center;
+
+    color:white;
+
+    font-weight:bold;
+
+}
+
+.high{
+
+    background:#DC2626;
+
+}
+
+.medium{
+
+    background:#EA580C;
+
+}
+
+.low{
+
+    background:#16A34A;
+
+}
+
+.score{
+
+    font-size:15px;
+
+    margin-top:8px;
+
+    font-weight:400;
+
+}
+.legend{
+
+margin-top:20px;
+
+padding-top:18px;
+
+border-top:1px solid #E5E7EB;
+
+font-size:14px;
+
+}
+
+.legendRow{
+
+display:flex;
+
+align-items:center;
+
+margin-bottom:10px;
+
+}
+
+.dot{
+
+width:14px;
+
+height:14px;
+
+border-radius:50%;
+
+margin-right:10px;
+
+}
+
+.red{
+
+background:#DC2626;
+
+}
+
+.orange{
+
+background:#EA580C;
+
+}
+
+.green{
+
+background:#173321;
+
+}
+
+.blue{
+
+background:#2563EB;
+
+}
+.button:disabled{
+
+background:#94A3B8;
+
+cursor:not-allowed;
+
+transform:none;
+
+}
+.error{
+
+margin-top:15px;
+
+padding:12px;
+
+border-radius:10px;
+
+background:#FEE2E2;
+
+color:#B91C1C;
+
+font-size:14px;
+
+}
+.reasonCard{
+
+    margin-top:20px;
+
+    padding:18px;
+
+    background:#FFF7ED;
+
+    border:1px solid #FDBA74;
+
+    border-radius:14px;
+
+}
+
+.reasonCard h3{
+
+    margin:0 0 12px;
+
+    color:#9A3412;
+
+    font-size:17px;
+
+}
+
+.reasonCard ul{
+
+    margin:0;
+
+    padding-left:20px;
+
+}
+
+.reasonCard li{
+
+    margin-bottom:8px;
+
+    color:#444;
+
+}
+.recommendationCard{
+
+    margin-top:20px;
+
+    padding:18px;
+
+    border-radius:14px;
+
+    background:#F8FAFC;
+
+    border:1px solid #E5E7EB;
+
+}
+
+.recommendationTitle{
+
+    font-size:17px;
+
+    font-weight:700;
+
+    margin-bottom:12px;
+
+}
+
+.recommendation{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:10px;
+
+    font-size:16px;
+
+    font-weight:600;
+
+}
+
+.greenText{
+
+    color:#16A34A;
+
+}
+
+.orangeText{
+
+    color:#EA580C;
+
+}
+
+.redText{
+
+    color:#DC2626;
+
+}
