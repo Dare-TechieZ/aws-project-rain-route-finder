@@ -18,7 +18,7 @@ export default function SearchBar({ setRouteData }) {
         try {
 
             const res = await axios.post(
-                "http://localhost:5000/route",
+                "https://aws-project-rain-route-finder.onrender.com",
                 {
                     source,
                     destination
